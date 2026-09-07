@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  
+  <!-- ================= ১. GOOGLE SEO & SEARCH RANKING META TAGS ================= -->
+  <title>Ami Store - Open Source App Store | Download Android Apps, Games & Source Codes</title>
+  <meta name="title" content="Ami Store - Open Source App Store" />
+  <meta name="description" content="Ami Store হলো সেরা ওপেন সোর্স অ্যাপ স্টোর। এখান থেকে সরাসরি ডাউনলোড করুন প্রিমিয়াম অ্যান্ড্রয়েড এপিকে (APK), গেমস এবং ওপেন সোর্স প্রজেক্ট সোর্স কোড।" />
+  <meta name="keywords" content="Ami Store, Ami App Store, Ami Store Open Source, Download APK, Open Source Code Shop, Android Apps, Mobile Games, Ami Tech, Bengali App Store" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="author" content="Ami Store" />
+  <meta name="theme-color" content="#01875f" />
+
+  <!-- ================= ২. GOOGLE SEARCH ICON & BROWSER FAVICON ================= -->
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.phototourl.com/free/2026-09-07-d0f15b67-1c0d-4d94-b232-8e5f5a5471c8.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="https://cdn.phototourl.com/free/2026-09-07-d0f15b67-1c0d-4d94-b232-8e5f5a5471c8.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.phototourl.com/free/2026-09-07-d0f15b67-1c0d-4d94-b232-8e5f5a5471c8.png" />
+  <link rel="shortcut icon" href="https://cdn.phototourl.com/free/2026-09-07-d0f15b67-1c0d-4d94-b232-8e5f5a5471c8.png" />
+
+  <!-- ================= ৩. SOCIAL MEDIA SHARING (OG TAGS) ================= -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Ami Store" />
+  <meta property="og:title" content="Ami Store - Open Source App Store" />
+  <meta property="og:description" content="ডাউনলোড করুন সেরা অ্যান্ড্রয়েড অ্যাপস, গেমস এবং সোর্স কোড সম্পূর্ণ নিরাপদে।" />
+  <meta property="og:image" content="https://cdn.phototourl.com/free/2026-09-07-d0f15b67-1c0d-4d94-b232-8e5f5a5471c8.png" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="1024" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ami Store - Open Source App Store" />
+  <meta name="twitter:description" content="ডাউনলোড করুন সেরা অ্যান্ড্রয়েড অ্যাপস, গেমস এবং সোর্স কোড।" />
+  <meta name="twitter:image" content="https://cdn.phototourl.com/free/2026-09-07-d0f15b67-1c0d-4d94-b232-8e5f5a5471c8.png" />
+
+  <!-- ================= ৪. GOOGLE RICH SNIPPET STRUCTURED DATA (JSON-LD) ================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Ami Store",
+    "alternateName": "Ami Store Open Source App Store",
+    "url": window.location.origin,
+    "description": "Download Android Applications, Games and Open Source Codes.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Ami Store",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.phototourl.com/free/2026-09-07-d0f15b67-1c0d-4d94-b232-8e5f5a5471c8.png"
+      }
+    }
+  }
+  </script>
+
+  <!-- Font Awesome Pro Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-color: #0f172a;
+      --text-sub: #64748b;
+      --primary: #01875f;
+      --primary-dark: #016849;
+      --border-color: #e2e8f0;
+      --nav-bg: #ffffff;
+      --shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    [data-theme="dark"] {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --text-color: #f8fafc;
+      --text-sub: #94a3b8;
+      --primary: #10b981;
+      --primary-dark: #059669;
+      --border-color: #334155;
+      --nav-bg: #1e293b;
+      --shadow: 0 4px 14px rgba(0,0,0,0.3);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', 'Roboto', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding-bottom: 80px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Top Bar */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 18px;
+      position: sticky;
+      top: 0;
+      background-color: var(--card-bg);
+      z-index: 100;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .brand img {
+      width: 38px;
+      height: 38px;
+      border-radius: 9px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .top-actions {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .action-icon {
+      background: none;
+      border: none;
+      color: var(--text-color);
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    /* Floating WhatsApp Button */
+    .floating-wa-btn {
+      position: fixed;
+      bottom: 80px;
+      right: 18px;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: #25d366;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      box-shadow: 0 4px 18px rgba(37, 211, 102, 0.45);
+      z-index: 999;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .floating-wa-btn:active {
+      transform: scale(0.92);
+    }
+
+    /* Search Box */
+    .search-box {
+      margin: 12px 16px;
+      position: relative;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 11px 16px 11px 42px;
+      border-radius: 25px;
+      border: 1px solid var(--border-color);
+      background-color: var(--card-bg);
+      color: var(--text-color);
+      outline: none;
+      font-size: 14px;
+    }
+    .search-box i {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-sub);
+    }
+
+    /* Banners Section */
+    .banner-slider {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      padding: 0 16px 14px;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+    .banner-slider::-webkit-scrollbar { display: none; }
+    .banner-item {
+      flex: 0 0 88%;
+      height: 140px;
+      border-radius: 14px;
+      overflow: hidden;
+      scroll-snap-align: center;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border-color);
+      cursor: pointer;
+    }
+    .banner-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Titles & Horizontal Scroll */
+    .section-title {
+      font-size: 17px;
+      font-weight: 700;
+      margin: 14px 16px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .horizontal-slider {
+      display: flex;
+      overflow-x: auto;
+      gap: 14px;
+      padding: 4px 16px 16px;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+    .horizontal-slider::-webkit-scrollbar { display: none; }
+
+    .app-card-sm {
+      flex: 0 0 95px;
+      scroll-snap-align: start;
+      cursor: pointer;
+      text-align: center;
+    }
+    .app-card-sm img {
+      width: 78px;
+      height: 78px;
+      border-radius: 18px;
+      object-fit: cover;
+      box-shadow: var(--shadow);
+      margin-bottom: 6px;
+    }
+    .app-card-sm .app-name {
+      font-size: 12px;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .app-card-sm .app-meta {
+      font-size: 11px;
+      color: var(--text-sub);
+    }
+
+    /* App Grid */
+    .app-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 14px;
+      padding: 0 16px 20px;
+    }
+    .app-card-grid {
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid var(--border-color);
+    }
+    .app-card-grid img {
+      width: 68px;
+      height: 68px;
+      border-radius: 16px;
+      object-fit: cover;
+      margin-bottom: 8px;
+    }
+
+    /* Source Codes List */
+    .source-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      padding: 0 16px 20px;
+    }
+    .source-card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 14px;
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      border: 1px solid var(--border-color);
+      cursor: pointer;
+    }
+    .source-card img {
+      width: 68px;
+      height: 68px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+    .source-details { flex: 1; }
+    .source-price-tag {
+      font-size: 15px;
+      color: var(--primary);
+      font-weight: 700;
+      margin-top: 4px;
+    }
+    .btn-buy-now {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    /* Bottom Navigation */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      height: 60px;
+      background-color: var(--nav-bg);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-top: 1px solid var(--border-color);
+      z-index: 990;
+    }
+    .nav-btn {
+      background: none;
+      border: none;
+      color: var(--text-sub);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      font-size: 11px;
+      cursor: pointer;
+      flex: 1;
+    }
+    .nav-btn i { font-size: 18px; }
+    .nav-btn.active {
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    /* Page Views */
+    .page-view { display: none; }
+    .page-view.active { display: block; }
+
+    /* App Details Modal */
+    #detail-modal {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: var(--bg-color);
+      z-index: 2000;
+      overflow-y: auto;
+      display: none;
+      padding-bottom: 30px;
+    }
+    .detail-header {
+      display: flex;
+      align-items: center;
+      padding: 12px 16px;
+      position: sticky;
+      top: 0;
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border-color);
+      z-index: 10;
+    }
+    .back-btn {
+      background: none;
+      border: none;
+      font-size: 20px;
+      color: var(--text-color);
+      cursor: pointer;
+      margin-right: 14px;
+    }
+    .app-info-hero {
+      display: flex;
+      padding: 16px;
+      gap: 16px;
+      align-items: center;
+    }
+    .app-info-hero img {
+      width: 85px;
+      height: 85px;
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      object-fit: cover;
+    }
+    .app-hero-meta h2 { font-size: 19px; margin-bottom: 4px; }
+    .developer-name {
+      color: var(--primary);
+      font-size: 13px;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+    .download-cta {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: 25px;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      width: calc(100% - 32px);
+      margin: 8px 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .stats-row {
+      display: flex;
+      justify-content: space-around;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      padding: 10px 0;
+      margin: 10px 16px;
+      text-align: center;
+    }
+    .stat-item h4 { font-size: 14px; font-weight: 700; }
+    .stat-item p { font-size: 11px; color: var(--text-sub); }
+
+    .screenshots-scroll {
+      display: flex;
+      overflow-x: auto;
+      gap: 12px;
+      padding: 12px 16px;
+    }
+    .screenshots-scroll img, .screenshots-scroll iframe {
+      height: 200px;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+    }
+
+    /* Payment Gateway Elements */
+    #payment-modal {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: #f1f5f9;
+      z-index: 3000;
+      overflow-y: auto;
+      display: none;
+      color: #0f172a;
+    }
+
+    .copied-top-banner {
+      position: fixed;
+      top: 14px; left: 16px; right: 16px;
+      background-color: #5bb35d;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      display: none;
+      align-items: center;
+      gap: 8px;
+      z-index: 9999;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+      animation: slideDown 0.3s ease;
+    }
+
+    .error-top-banner {
+      position: fixed;
+      top: 14px; left: 16px; right: 16px;
+      background-color: #cf5353;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      line-height: 1.4;
+      display: none;
+      align-items: flex-start;
+      gap: 12px;
+      z-index: 9999;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+      animation: slideDown 0.3s ease;
+    }
+
+    .bottom-copied-toast {
+      position: fixed;
+      bottom: 90px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(30, 30, 30, 0.95);
+      color: #fff;
+      padding: 10px 24px;
+      border-radius: 20px;
+      font-size: 13.5px;
+      display: none;
+      z-index: 9999;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.3);
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .pay-top-nav {
+      background: #ffffff;
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    .pay-brand-center {
+      text-align: center;
+      padding: 18px 16px 12px;
+    }
+
+    .pay-brand-avatar {
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 8px;
+      border: 3px solid #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .pay-brand-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .pay-invoice-box {
+      background: #ffffff;
+      margin: 0 16px 14px;
+      padding: 14px 16px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .pay-invoice-box img {
+      width: 44px;
+      height: 44px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .pay-price-badge {
+      background: #ffffff;
+      margin: 0 16px 16px;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-size: 19px;
+      font-weight: 700;
+      border: 1px solid #e2e8f0;
+    }
+
+    .mobile-banking-header {
+      background: #0056b3;
+      color: #ffffff;
+      text-align: center;
+      padding: 11px;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0 16px 14px;
+      border-radius: 6px;
+    }
+
+    .gateway-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding: 0 16px;
+      margin-bottom: 24px;
+    }
+
+    .gateway-card {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 10px;
+      padding: 14px 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      cursor: pointer;
+      transition: transform 0.15s, border-color 0.15s;
+    }
+
+    .gateway-card:active {
+      transform: scale(0.96);
+      border-color: #0056b3;
+    }
+
+    .gateway-card svg {
+      width: 38px;
+      height: 38px;
+    }
+
+    .gateway-label {
+      font-size: 12.5px;
+      font-weight: 700;
+    }
+
+    .btn-pay-bottom-cta {
+      background-color: #dbeafe;
+      color: #1d4ed8;
+      border: none;
+      padding: 16px;
+      width: calc(100% - 32px);
+      margin: 10px 16px 24px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .instruction-card {
+      margin: 16px;
+      border-radius: 16px;
+      color: #ffffff;
+      padding: 20px 16px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+
+    .inst-bkash { background-color: #cb1256; }
+    .inst-nagad { background-color: #c90a12; }
+    .inst-rocket { background-color: #8c3494; }
+
+    .inst-title {
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 14px;
+    }
+
+    .inst-input {
+      width: 100%;
+      background: #ffffff;
+      border: none;
+      padding: 13px 16px;
+      border-radius: 8px;
+      outline: none;
+      font-size: 14.5px;
+      color: #1e293b;
+      margin-bottom: 16px;
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .inst-instructions {
+      list-style: none;
+      font-size: 13.5px;
+      line-height: 1.7;
+    }
+
+    .inst-instructions li {
+      position: relative;
+      padding-left: 18px;
+      margin-bottom: 8px;
+    }
+
+    .inst-instructions li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    .copy-chip-btn {
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-left: 6px;
+    }
+
+    .btn-verify-main {
+      width: 100%;
+      color: #ffffff;
+      border: none;
+      padding: 14px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      margin-top: 14px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    .success-download-box {
+      background: #dcfce7;
+      border: 2px dashed #16a34a;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 16px;
+      text-align: center;
+    }
+
+    .btn-unlocked-download {
+      background: #16a34a;
+      color: #fff;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 700;
+      margin-top: 12px;
+      cursor: pointer;
+      border: none;
+      font-size: 14px;
+    }
+
+    /* Forms */
+    .form-group {
+      margin-bottom: 14px;
+      padding: 0 16px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 6px;
+      color: var(--text-sub);
+    }
+    .form-group input, .form-group textarea, .form-group select {
+      width: 100%;
+      padding: 11px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      background: var(--card-bg);
+      color: var(--text-color);
+      outline: none;
+      font-size: 13.5px;
+    }
+    .btn-submit {
+      width: calc(100% - 32px);
+      margin: 16px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 13px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .google-btn {
+      background: #fff;
+      color: #757575;
+      border: 1px solid #ddd;
+      width: calc(100% - 32px);
+      margin: 0 16px 16px;
+      padding: 11px;
+      border-radius: 8px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body data-theme="light">
+
+  <!-- ================= POPUP NOTIFICATIONS ================= -->
+  <div id="copied-top-banner" class="copied-top-banner">
+    <i class="fa-solid fa-check"></i> Copied!
+  </div>
+
+  <div id="bottom-copied-toast" class="bottom-copied-toast">Copied</div>
+
+  <div id="error-top-banner" class="error-top-banner">
+    <i class="fa-solid fa-shield-halved" style="font-size: 20px; margin-top: 2px;"></i>
+    <div>
+      <div style="font-weight: 700; margin-bottom: 2px;" id="error-title">দুঃখিত, আপনার Transaction ID খুঁজে পাওয়া যায়নি।</div>
+      <div style="font-size: 12px; opacity: 0.95;" id="error-desc">অনুগ্রহ করে কয়েক মিনিট পরে আবার চেষ্টা করুন অথবা এডমিন অনুমোদনের জন্য অপেক্ষা করুন।</div>
+    </div>
+  </div>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/" id="floating-wa-btn" target="_blank" class="floating-wa-btn" title="সরাসরি হোয়াটসঅ্যাপে সাহায্য নিন">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Top App Bar -->
+  <header class="top-bar">
+    <div class="brand">
+      <img id="site-logo" src="https://cdn.phototourl.com/free/2026-09-07-d0f15b67-1c0d-4d94-b232-8e5f5a5471c8.png" alt="Ami Store" />
+      <span id="site-name">Ami Store</span>
+    </div>
+    <div class="top-actions">
+      <button class="action-icon" onclick="toggleTheme()" aria-label="Toggle Theme">
+        <i class="fa-solid fa-moon" id="theme-icon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Search Box -->
+  <div class="search-box">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" id="searchInput" placeholder="অ্যাপ, গেম অথবা সোর্স কোড সার্চ করুন..." onkeyup="filterContent()" />
+  </div>
+
+  <!-- TAB 1: HOME PAGE -->
+  <div id="home-view" class="page-view active">
+    <div class="banner-slider" id="banner-container"></div>
+    <div id="featured-section-title" class="section-title" style="display:none;">জনপ্রিয় অ্যাপস</div>
+    <div class="horizontal-slider" id="featured-apps"></div>
+    <div class="section-title">সব অ্যাপ্লিকেশন</div>
+    <div class="app-grid" id="apps-list"></div>
+  </div>
+
+  <!-- TAB 2: GAMES PAGE -->
+  <div id="games-view" class="page-view">
+    <div id="featured-games-title" class="section-title" style="display:none;">জনপ্রিয় গেমস</div>
+    <div class="horizontal-slider" id="featured-games"></div>
+    <div class="section-title">সব গেমস</div>
+    <div class="app-grid" id="games-list"></div>
+  </div>
+
+  <!-- TAB 3: SOURCE CODES STORE -->
+  <div id="source-view" class="page-view">
+    <div class="section-title">ওপেন সোর্স কোড ও স্ক্রিপ্ট</div>
+    <p style="padding: 0 16px 12px; font-size: 13px; color: var(--text-sub);">প্রজেক্টের সম্পূর্ণ সোর্স কোড কিনুন এবং নিজের ইচ্ছামতো অ্যাপ তৈরি করুন।</p>
+    <div class="source-grid" id="source-list"></div>
+  </div>
+
+  <!-- TAB 4: ME / DEVELOPER PANEL -->
+  <div id="me-view" class="page-view">
+    <div id="auth-container">
+      <div style="text-align: center; padding: 20px 16px;">
+        <i class="fa-solid fa-circle-user" style="font-size: 55px; color: var(--primary);"></i>
+        <h3 style="margin-top: 8px;">ডেভেলপার অ্যাকাউন্ট</h3>
+        <p style="color: var(--text-sub); font-size: 13px;">অ্যাপ সাবমিট করতে লগইন করুন। ভিজিটরদের লগইন বাধ্যতামূলক নয়।</p>
+      </div>
+
+      <button class="google-btn" onclick="loginWithGoogle()">
+        <i class="fa-brands fa-google" style="color: #ea4335;"></i> Continue with Google
+      </button>
+      <div style="text-align: center; margin-bottom: 12px; color: var(--text-sub); font-size: 12px;">অথবা ইমেইল দিয়ে প্রবেশ করুন</div>
+
+      <div class="form-group">
+        <label>ইমেইল</label>
+        <input type="email" id="auth-email" placeholder="dev@example.com" />
+      </div>
+      <div class="form-group">
+        <label>পাসওয়ার্ড</label>
+        <input type="password" id="auth-pass" placeholder="কমপক্ষে ৬ অক্ষর" />
+      </div>
+
+      <button class="btn-submit" onclick="loginWithEmail()">লগইন</button>
+      <button class="btn-submit" style="background: transparent; color: var(--primary); border: 1px solid var(--primary); margin-top: -6px;" onclick="registerWithEmail()">নতুন অ্যাকাউন্ট তৈরি করুন</button>
+    </div>
+
+    <!-- Developer Upload Section -->
+    <div id="upload-container" style="display: none;">
+      <div style="display:flex; justify-content:space-between; align-items:center; padding: 16px; border-bottom: 1px solid var(--border-color);">
+        <span id="user-display" style="font-weight: 600;"></span>
+        <button onclick="logout()" style="background:none; border:none; color:#dc2626; cursor:pointer;"><i class="fa-solid fa-right-from-bracket"></i> লগআউট</button>
+      </div>
+
+      <div class="section-title">এপিকে (APK) সাবমিট করুন</div>
+      <p style="padding: 0 16px 10px; font-size: 12px; color: #b45309;">* আপনার সাবমিট করা এপিকে এডমিন প্যানেল থেকে রিভিউ করার পর লাইভ হবে।</p>
+
+      <div class="form-group">
+        <label>অ্যাপের নাম</label>
+        <input type="text" id="app-name" placeholder="যেমন: Ami Super App" />
+      </div>
+      <div class="form-group">
+        <label>ডেভেলপারের নাম</label>
+        <input type="text" id="app-dev" placeholder="যেমন: Ami Soft" />
+      </div>
+      <div class="form-group">
+        <label>ক্যাটাগরি</label>
+        <select id="app-category">
+          <option value="app">অ্যাপ্লিকেশন (App)</option>
+          <option value="game">গেম (Game)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>লোগো লিঙ্ক</label>
+        <input type="url" id="app-logo" placeholder="https://..." />
+      </div>
+      <div class="form-group">
+        <label>ডাউনলোড লিঙ্ক (Google Drive, MediaFire ইত্যাদি)</label>
+        <input type="url" id="app-download-link" placeholder="https://..." />
+      </div>
+      <div class="form-group">
+        <label>সাইজ</label>
+        <input type="text" id="app-size" placeholder="যেমন: 20 MB" />
+      </div>
+      <div class="form-group">
+        <label>বিজ্ঞাপন বা অ্যাড আছে?</label>
+        <select id="app-has-ads">
+          <option value="false">না (কোনো অ্যাড নেই)</option>
+          <option value="true">হ্যাঁ (Contains Ads)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>স্ক্রিনশট লিঙ্কসমূহ (কমা দিয়ে একাধিক দিন)</label>
+        <textarea id="app-screenshots" rows="2" placeholder="https://img1.png, https://img2.png"></textarea>
+      </div>
+      <div class="form-group">
+        <label>ভিডিও গাইড লিঙ্ক (ঐচ্ছিক)</label>
+        <input type="url" id="app-video" placeholder="https://www.youtube.com/embed/..." />
+      </div>
+      <div class="form-group">
+        <label>বর্ণনা (Description)</label>
+        <textarea id="app-desc" rows="3" placeholder="অ্যাপের বিস্তারিত লিখুন..."></textarea>
+      </div>
+
+      <button class="btn-submit" onclick="submitApp()"><i class="fa-solid fa-paper-plane"></i> রিভিউয়ের জন্য সাবমিট করুন</button>
+      <div class="section-title">আমার সাবমিট করা অ্যাপসমূহ</div>
+      <div id="user-apps-list" style="padding: 0 16px;"></div>
+    </div>
+  </div>
+
+  <!-- APP DETAIL MODAL -->
+  <div id="detail-modal">
+    <div class="detail-header">
+      <button class="back-btn" onclick="closeDetail()"><i class="fa-solid fa-arrow-left"></i></button>
+      <span style="font-weight: 600;" id="modal-top-title">অ্যাপ বিবরণ</span>
+    </div>
+    
+    <div class="app-info-hero">
+      <img id="detail-logo" src="" alt="" />
+      <div class="app-hero-meta">
+        <h2 id="detail-title">App Title</h2>
+        <div class="developer-name" id="detail-dev">Developer</div>
+        <div style="font-size: 12px; color: var(--text-sub);">
+          <span id="detail-cat">App</span> <span id="detail-ads-badge" style="display:none;">• Contains ads</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="detail-cta-container"></div>
+
+    <div class="stats-row">
+      <div class="stat-item">
+        <h4 id="detail-rating">0.0 <i class="fa-solid fa-star" style="color: #fbbc04; font-size: 11px;"></i></h4>
+        <p><span id="detail-rating-count">0</span> রিভিউ</p>
+      </div>
+      <div class="stat-item">
+        <h4 id="detail-downloads">0+</h4>
+        <p>ডাউনলোড</p>
+      </div>
+      <div class="stat-item">
+        <h4 id="detail-size-stat">--</h4>
+        <p>সাইজ</p>
+      </div>
+    </div>
+
+    <div class="section-title">প্রিভিউ এবং ভিডিও গাইড</div>
+    <div class="screenshots-scroll" id="detail-media"></div>
+
+    <div class="section-title">বিস্তারিত বিবরণ</div>
+    <p id="detail-desc" style="padding: 0 16px; font-size: 13.5px; line-height: 1.6; color: var(--text-sub);"></p>
+
+    <div class="comments-section" style="padding: 16px;">
+      <div class="section-title" style="margin: 15px 0 10px 0;">রেটিং ও মন্তব্য দিন</div>
+      <div style="display: flex; gap: 8px; margin-bottom: 12px; font-size: 22px; color: #ccc;" id="star-picker">
+        <i class="fa-solid fa-star" onclick="setStar(1)"></i>
+        <i class="fa-solid fa-star" onclick="setStar(2)"></i>
+        <i class="fa-solid fa-star" onclick="setStar(3)"></i>
+        <i class="fa-solid fa-star" onclick="setStar(4)"></i>
+        <i class="fa-solid fa-star" onclick="setStar(5)"></i>
+      </div>
+      <div class="form-group" style="padding: 0;">
+        <input type="text" id="comment-user-name" placeholder="আপনার নাম" style="margin-bottom: 8px;" />
+        <textarea id="comment-text" rows="2" placeholder="মতামত লিখুন..."></textarea>
+      </div>
+      <button class="btn-submit" style="margin: 8px 0; width: 100%;" onclick="submitComment()">মন্তব্য পোস্ট করুন</button>
+      <div id="comment-list" style="margin-top: 15px;"></div>
+    </div>
+  </div>
+
+  <!-- PAYMENT GATEWAY MODAL -->
+  <div id="payment-modal">
+    <div class="pay-top-nav">
+      <button class="back-btn" onclick="closePayment()"><i class="fa-solid fa-arrow-left"></i></button>
+      <div style="font-size: 18px; color: var(--text-sub); display: flex; gap: 14px;">
+        <i class="fa-solid fa-language"></i>
+        <i class="fa-solid fa-xmark" onclick="closePayment()" style="cursor: pointer;"></i>
+      </div>
+    </div>
+
+    <div class="pay-brand-center">
+      <div class="pay-brand-avatar">
+        <img id="pay-center-logo" src="https://cdn.phototourl.com/free/2026-09-07-d0f15b67-1c0d-4d94-b232-8e5f5a5471c8.png" alt="Logo" />
+      </div>
+      <h3 id="pay-center-name" style="font-size: 18px; font-weight: 700;">Ami Store</h3>
+      <div style="display: flex; justify-content: center; gap: 16px; margin-top: 10px; color: var(--text-sub); font-size: 17px;">
+        <a href="https://wa.me/" id="pay-wa-icon" target="_blank" style="color:inherit; text-decoration:none;"><i class="fa-solid fa-headset"></i></a>
+        <i class="fa-regular fa-circle-question"></i>
+        <i class="fa-solid fa-circle-info"></i>
+      </div>
+    </div>
+
+    <div class="pay-invoice-box">
+      <img id="pay-item-logo" src="" alt="" />
+      <div>
+        <h4 id="pay-item-title" style="font-size: 14px;">Item Title</h4>
+        <p style="font-size: 12px; color: var(--text-sub);">ইনভয়েস আইডি: <span id="pay-invoice-id">#AMI-1234</span></p>
+      </div>
+    </div>
+
+    <div class="pay-price-badge">
+      ৳ <span id="pay-amount-val">0</span>
+    </div>
+
+    <!-- GATEWAY SELECTION WITH OFFICIAL SVG ICONS -->
+    <div id="gateway-selection-screen">
+      <div class="mobile-banking-header">মোবাইল ব্যাংকিং</div>
+      <div class="gateway-cards-grid">
+        <div class="gateway-card" onclick="openMethodInstruction('bkash')">
+          <svg viewBox="0 0 100 100" fill="none">
+            <path d="M50 5 L88 28 L72 75 L28 75 L12 28 Z" fill="#d12053"/>
+            <path d="M50 15 L22 35 L35 70 L65 70 L78 35 Z" fill="#ffffff"/>
+            <path d="M50 24 L34 38 L42 63 L58 63 L66 38 Z" fill="#d12053"/>
+          </svg>
+          <span class="gateway-label" style="color: #d12053;">bKash</span>
+        </div>
+
+        <div class="gateway-card" onclick="openMethodInstruction('nagad')">
+          <svg viewBox="0 0 100 100" fill="none">
+            <circle cx="50" cy="50" r="45" fill="#ea1d25"/>
+            <path d="M50 20 C42 32 40 45 46 54 C48 48 54 44 54 38 C54 38 60 48 56 60 C64 56 66 44 62 36 C58 28 54 22 50 20 Z" fill="#f8b133"/>
+            <path d="M44 60 C44 72 56 75 60 75 C52 75 48 68 48 62 Z" fill="#ffffff"/>
+          </svg>
+          <span class="gateway-label" style="color: #ea1d25;">নগদ</span>
+        </div>
+
+        <div class="gateway-card" onclick="openMethodInstruction('rocket')">
+          <svg viewBox="0 0 100 100" fill="none">
+            <rect width="100" height="100" rx="20" fill="#8c3494"/>
+            <path d="M50 15 L66 38 L57 44 L64 68 L50 60 L36 68 L43 44 L34 38 Z" fill="#ffffff"/>
+            <circle cx="50" cy="38" r="5" fill="#f58220"/>
+          </svg>
+          <span class="gateway-label" style="color: #8c3494;">রকেট</span>
+        </div>
+      </div>
+      <button class="btn-pay-bottom-cta" id="pay-cta-amount-btn">Pay 0.00 BDT</button>
+    </div>
+
+    <!-- Instruction Screen -->
+    <div id="gateway-instruction-screen" style="display: none;"></div>
+  </div>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <button class="nav-btn active" onclick="switchNav('home', this)">
+      <i class="fa-solid fa-house"></i>
+      <span>হোম</span>
+    </button>
+    <button class="nav-btn" onclick="switchNav('games', this)">
+      <i class="fa-solid fa-gamepad"></i>
+      <span>গেমস</span>
+    </button>
+    <button class="nav-btn" onclick="switchNav('source', this)">
+      <i class="fa-solid fa-code"></i>
+      <span>সোর্স ফাইল</span>
+    </button>
+    <button class="nav-btn" onclick="switchNav('me', this)">
+      <i class="fa-solid fa-user"></i>
+      <span>Me</span>
+    </button>
+  </nav>
+
+  <!-- Firebase Scripts -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+  <script>
+    // --- 1. FIREBASE INITIALIZATION ---
+    const firebaseConfig = {
+      apiKey: "AIzaSyBpHGskdHQuZMnQVSjvelOnoop7-Yq8las",
+      authDomain: "ami-store-a27d0.firebaseapp.com",
+      databaseURL: "https://ami-store-a27d0-default-rtdb.firebaseio.com",
+      projectId: "ami-store-a27d0",
+      storageBucket: "ami-store-a27d0.firebasestorage.app",
+      messagingSenderId: "254023905533",
+      appId: "1:254023905533:web:831fe198c259338ca48e94"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+    const db = firebase.database();
+
+    let allContentList = [];
+    let currentItem = null;
+    let selectedRating = 5;
+
+    // আপনার দেওয়া আসল লোগোটি স্থায়ী ডিফল্ট হিসেবে সেট করা হলো
+    const OFFICIAL_LOGO = "https://cdn.phototourl.com/free/2026-09-07-d0f15b67-1c0d-4d94-b232-8e5f5a5471c8.png";
+    let siteSettings = {
+      name: "Ami Store",
+      logo: OFFICIAL_LOGO,
+      whatsapp: "8801605390416",
+      bkashNo: "01605390416",
+      nagadNo: "01605390416",
+      rocketNo: "01605390416"
+    };
+
+    // --- 2. SETTINGS & BRANDING SYNC ---
+    db.ref('settings').on('value', snap => {
+      const s = snap.val();
+      if (s) {
+        siteSettings = { ...siteSettings, ...s };
+        document.getElementById('site-name').innerText = siteSettings.name || "Ami Store";
+        document.getElementById('pay-center-name').innerText = siteSettings.name || "Ami Store";
+
+        const currentLogo = siteSettings.logo || OFFICIAL_LOGO;
+        document.getElementById('site-logo').src = currentLogo;
+        document.getElementById('pay-center-logo').src = currentLogo;
+
+        const waUrl = `https://wa.me/${siteSettings.whatsapp}`;
+        document.getElementById('floating-wa-btn').href = waUrl;
+        document.getElementById('pay-wa-icon').href = waUrl;
+      }
+    });
+
+    // --- 3. BANNERS LOADER ---
+    db.ref('banners').on('value', snap => {
+      const box = document.getElementById('banner-container');
+      box.innerHTML = '';
+      const bData = snap.val();
+      if (bData) {
+        Object.values(bData).forEach(b => {
+          box.innerHTML += `
+            <div class="banner-item" onclick="if('${b.link}') window.open('${b.link}', '_blank')">
+              <img src="${b.image}" onerror="this.src='https://placehold.co/600x200?text=Ami+Store'"/>
+            </div>
+          `;
+        });
+      } else {
+        box.innerHTML = `<div class="banner-item"><img src="https://placehold.co/600x200/01875f/ffffff?text=Welcome+to+Ami+Store" /></div>`;
+      }
+    });
+
+    // --- 4. REALTIME CONTENT LOAD ---
+    db.ref('apps').on('value', snap => {
+      allContentList = [];
+      const data = snap.val();
+      if (data) {
+        Object.keys(data).forEach(k => {
+          allContentList.push({ id: k, ...data[k] });
+        });
+      }
+      renderStore(allContentList);
+    });
+
+    function renderStore(list) {
+      const homeSlider = document.getElementById('featured-apps');
+      const homeGrid = document.getElementById('apps-list');
+      const gamesSlider = document.getElementById('featured-games');
+      const gamesGrid = document.getElementById('games-list');
+      const sourceList = document.getElementById('source-list');
+
+      homeSlider.innerHTML = ''; homeGrid.innerHTML = '';
+      gamesSlider.innerHTML = ''; gamesGrid.innerHTML = '';
+      sourceList.innerHTML = '';
+
+      let hasFeatApps = false;
+      let hasFeatGames = false;
+
+      list.forEach(item => {
+        if (item.status === 'trashed' || item.status === 'pending') return;
+
+        const rating = item.ratings ? (item.ratings.total / item.ratings.count).toFixed(1) : "5.0";
+
+        if (item.category === 'source') {
+          sourceList.innerHTML += `
+            <div class="source-card" onclick="openDetail('${item.id}')">
+              <img src="${item.logo}" onerror="this.src='https://placehold.co/68?text=Code'"/>
+              <div class="source-details">
+                <h4 style="font-size:15px; font-weight:600;">${item.title}</h4>
+                <p style="font-size:12px; color:var(--text-sub);">${item.developer}</p>
+                <div class="source-price-tag">৳ ${item.price || 99} BDT</div>
+              </div>
+              <button class="btn-buy-now"><i class="fa-solid fa-bag-shopping"></i> Buy</button>
+            </div>
+          `;
+          return;
+        }
+
+        const gridItem = `
+          <div class="app-card-grid" onclick="openDetail('${item.id}')">
+            <img src="${item.logo}" onerror="this.src='https://placehold.co/68?text=App'"/>
+            <div style="font-weight:600; font-size:13px; margin-bottom:4px; max-width:100%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${item.title}</div>
+            <div style="font-size:11px; color:var(--text-sub);"><i class="fa-solid fa-star" style="color:#fbbc04; font-size:10px;"></i> ${rating}</div>
+          </div>
+        `;
+
+        const sliderItem = `
+          <div class="app-card-sm" onclick="openDetail('${item.id}')">
+            <img src="${item.logo}" onerror="this.src='https://placehold.co/78?text=App'"/>
+            <div class="app-name">${item.title}</div>
+            <div class="app-meta"><i class="fa-solid fa-star" style="color:#fbbc04; font-size:10px;"></i> ${rating}</div>
+          </div>
+        `;
+
+        if (item.category === 'game') {
+          gamesGrid.innerHTML += gridItem;
+          if (item.featured === true) {
+            gamesSlider.innerHTML += sliderItem;
+            hasFeatGames = true;
+          }
+        } else {
+          homeGrid.innerHTML += gridItem;
+          if (item.featured === true) {
+            homeSlider.innerHTML += sliderItem;
+            hasFeatApps = true;
+          }
+        }
+      });
+
+      document.getElementById('featured-section-title').style.display = hasFeatApps ? 'flex' : 'none';
+      document.getElementById('featured-games-title').style.display = hasFeatGames ? 'flex' : 'none';
+    }
+
+    // --- 5. DETAILS MODAL ---
+    function openDetail(id) {
+      currentItem = allContentList.find(a => a.id === id);
+      if (!currentItem) return;
+
+      document.getElementById('detail-modal').style.display = 'block';
+      document.getElementById('modal-top-title').innerText = currentItem.title;
+      document.getElementById('detail-logo').src = currentItem.logo;
+      document.getElementById('detail-title').innerText = currentItem.title;
+      document.getElementById('detail-dev').innerText = currentItem.developer;
+      document.getElementById('detail-cat').innerText = currentItem.category.toUpperCase();
+      document.getElementById('detail-desc').innerText = currentItem.desc || "কোনো বিবরণ নেই।";
+      document.getElementById('detail-size-stat').innerText = currentItem.size || "Free";
+
+      document.getElementById('detail-ads-badge').style.display = currentItem.hasAds ? 'inline' : 'none';
+      document.getElementById('detail-downloads').innerText = (currentItem.downloads || 0) + "+";
+
+      const rating = currentItem.ratings ? (currentItem.ratings.total / currentItem.ratings.count).toFixed(1) : "5.0";
+      document.getElementById('detail-rating').innerHTML = `${rating} <i class="fa-solid fa-star" style="color:#fbbc04; font-size:11px;"></i>`;
+      document.getElementById('detail-rating-count').innerText = currentItem.ratings ? currentItem.ratings.count : 1;
+
+      const ctaBox = document.getElementById('detail-cta-container');
+      if (currentItem.category === 'source') {
+        ctaBox.innerHTML = `
+          <button class="download-cta" style="background:#0284c7;" onclick="openPaymentModal()">
+            <i class="fa-solid fa-bag-shopping"></i> সোর্স কোড কিনুন (৳ ${currentItem.price || 99} BDT)
+          </button>
+        `;
+      } else {
+        ctaBox.innerHTML = `
+          <button class="download-cta" onclick="handleDownload()">
+            <i class="fa-solid fa-download"></i> ইন্সটল বা ডাউনলোড (${currentItem.size || 'Free'})
+          </button>
+        `;
+      }
+
+      const mediaBox = document.getElementById('detail-media');
+      mediaBox.innerHTML = '';
+      if (currentItem.video) {
+        mediaBox.innerHTML += `<iframe src="${currentItem.video}" frameborder="0" allowfullscreen></iframe>`;
+      }
+      if (currentItem.screenshots && currentItem.screenshots.length > 0) {
+        currentItem.screenshots.forEach(u => {
+          mediaBox.innerHTML += `<img src="${u}" onerror="this.style.display='none'"/>`;
+        });
+      }
+
+      loadComments(currentItem.id);
+    }
+
+    function closeDetail() {
+      document.getElementById('detail-modal').style.display = 'none';
+      currentItem = null;
+    }
+
+    function handleDownload() {
+      if (!currentItem) return;
+      db.ref(`apps/${currentItem.id}/downloads`).transaction(c => (c || 0) + 1);
+      window.open(currentItem.downloadUrl, '_blank');
+    }
+
+    // --- 6. SECURE ONE-TIME PAYMENT & DOWNLOAD VERIFICATION ---
+    let currentInvoiceId = "";
+    function openPaymentModal() {
+      if (!currentItem) return;
+      currentInvoiceId = "INV" + Math.random().toString(36).substring(2, 9).toUpperCase();
+
+      document.getElementById('pay-invoice-id').innerText = currentInvoiceId;
+      const amount = currentItem.price || 50;
+      document.getElementById('pay-amount-val').innerText = amount;
+      document.getElementById('pay-item-title').innerText = currentItem.title;
+      document.getElementById('pay-item-logo').src = currentItem.logo;
+      document.getElementById('pay-cta-amount-btn').innerText = `Pay ${amount}.00 BDT`;
+
+      document.getElementById('gateway-selection-screen').style.display = 'block';
+      document.getElementById('gateway-instruction-screen').style.display = 'none';
+
+      document.getElementById('payment-modal').style.display = 'block';
+    }
+
+    function closePayment() {
+      document.getElementById('payment-modal').style.display = 'none';
+    }
+
+    function openMethodInstruction(method) {
+      document.getElementById('gateway-selection-screen').style.display = 'none';
+      const screen = document.getElementById('gateway-instruction-screen');
+      screen.style.display = 'block';
+
+      let themeClass = "inst-bkash";
+      let methodTitle = "BKASH";
+      let dialCode = "*247#";
+      let number = siteSettings.bkashNo || "01605390416";
+      let verifyBtnBg = "#cb1256";
+
+      if (method === 'nagad') {
+        themeClass = "inst-nagad";
+        methodTitle = "NAGAD";
+        dialCode = "*167#";
+        number = siteSettings.nagadNo || "01605390416";
+        verifyBtnBg = "#c90a12";
+      } else if (method === 'rocket') {
+        themeClass = "inst-rocket";
+        methodTitle = "ROCKET";
+        dialCode = "*322#";
+        number = siteSettings.rocketNo || "01605390416";
+        verifyBtnBg = "#8c3494";
+      }
+
+      const amount = currentItem.price || 50;
+
+      screen.innerHTML = `
+        <div class="instruction-card ${themeClass}">
+          <div class="inst-title">ট্রানজেকশন আইডি দিন</div>
+          <input type="text" id="trx-id-input" class="inst-input" placeholder="ট্রানজেকশন আইডি দিন" />
+
+          <ul class="inst-instructions">
+            <li><b>${dialCode}</b> ডায়াল করে আপনার ${methodTitle} মোবাইল মেনুতে যান অথবা ${methodTitle} অ্যাপে যান।</li>
+            <li><b>"Send Money"</b> -এ ক্লিক করুন।</li>
+            <li>
+              প্রাপক নম্বর হিসেবে এই নম্বরটি লিখুন: <b>${number}</b>
+              <button type="button" class="copy-chip-btn" onclick="copyNumber('${number}')">
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+            </li>
+            <li>টাকার পরিমাণ: <b>${amount}</b></li>
+            <li>নিশ্চিত করতে এখন আপনার ${methodTitle} মোবাইল মেনু পিন লিখুন।</li>
+            <li>সবকিছু ঠিক থাকলে, আপনি ${methodTitle} থেকে একটি নিশ্চিতকরণ বার্তা পাবেন।</li>
+            <li>এখন উপরের বক্সে আপনার <b>Transaction ID</b> দিন এবং নিচের <b>VERIFY</b> বাটনে ক্লিক করুন।</li>
+          </ul>
+        </div>
+
+        <div style="padding: 0 16px;">
+          <button class="btn-verify-main" style="background:${verifyBtnBg};" onclick="handleVerifyTrx('${method}', ${amount})">VERIFY</button>
+        </div>
+
+        <div id="unlocked-file-area"></div>
+
+        <div style="text-align: center; margin: 16px 0;">
+          <button onclick="document.getElementById('gateway-selection-screen').style.display='block'; document.getElementById('gateway-instruction-screen').style.display='none';" style="background:none; border:none; color:var(--text-sub); text-decoration:underline; font-size:13.5px; cursor:pointer;">
+            অন্য পেমেন্ট মেথড নির্বাচন করুন
+          </button>
+        </div>
+      `;
+    }
+
+    // Modern Cross-browser Copy Mechanism
+    function copyNumber(text) {
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(showCopiedFeedback).catch(() => fallbackCopy(text));
+      } else {
+        fallbackCopy(text);
+      }
+    }
+
+    function fallbackCopy(text) {
+      const temp = document.createElement("input");
+      temp.value = text;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand("copy");
+      document.body.removeChild(temp);
+      showCopiedFeedback();
+    }
+
+    function showCopiedFeedback() {
+      const topBanner = document.getElementById('copied-top-banner');
+      const bottomToast = document.getElementById('bottom-copied-toast');
+
+      topBanner.style.display = 'flex';
+      bottomToast.style.display = 'block';
+
+      setTimeout(() => {
+        topBanner.style.display = 'none';
+        bottomToast.style.display = 'none';
+      }, 2500);
+    }
+
+    function showErrorFeedback(title, desc) {
+      const errBanner = document.getElementById('error-top-banner');
+      if (title) document.getElementById('error-title').innerText = title;
+      if (desc) document.getElementById('error-desc').innerText = desc;
+      errBanner.style.display = 'flex';
+      setTimeout(() => {
+        errBanner.style.display = 'none';
+      }, 4500);
+    }
+
+    // STRICT ONE-TIME USE TRANSACTION VERIFICATION
+    function handleVerifyTrx(method, amount) {
+      const inputTrx = document.getElementById('trx-id-input').value.trim();
+      if (!inputTrx) {
+        showErrorFeedback("দয়া করে ট্রানজেকশন আইডি প্রদান করুন।", "ফাঁকা ঘরে সঠিক TrxID লিখে সাবমিট করুন।");
+        return;
+      }
+
+      db.ref('orders').orderByChild('trxId').equalTo(inputTrx).once('value', snap => {
+        const data = snap.val();
+
+        if (data) {
+          const orderKey = Object.keys(data)[0];
+          const matchedOrder = data[orderKey];
+
+          if (matchedOrder.status === 'claimed') {
+            showErrorFeedback("এই ট্রানজেকশন আইডিটি ইতিমধ্যে ব্যবহার করা হয়েছে!", "একই Transaction ID দিয়ে একাধিকবার ফাইল ডাউনলোড করা সম্পূর্ণ নিষিদ্ধ।");
+            return;
+          }
+
+          if (matchedOrder.status === 'completed' && matchedOrder.itemId === currentItem.id) {
+            document.getElementById('unlocked-file-area').innerHTML = `
+              <div class="success-download-box">
+                <i class="fa-solid fa-circle-check" style="color:#16a34a; font-size:36px;"></i>
+                <h4 style="margin: 8px 0; color:#15803d; font-size:16px;">পেমেন্ট ভেরিফাই সফল হয়েছে!</h4>
+                <p style="font-size:12.5px; color:#374151;">নিরাপত্তার স্বার্থে এই লিঙ্কটি কেবল <b>একবারই</b> সক্রিয় থাকবে। ডাউনলোড বাটনে ক্লিক করুন:</p>
+                <button class="btn-unlocked-download" onclick="consumeAndDownload('${orderKey}', '${matchedOrder.downloadUrl}')">
+                  <i class="fa-solid fa-cloud-arrow-down"></i> সোর্স ফাইল ডাউনলোড করুন
+                </button>
+              </div>
+            `;
+          } else {
+            showErrorFeedback("দুঃখিত, আপনার Transaction ID এখনও অনুমোদিত হয়নি।", "এডমিন ভেরিফাই করার পর পুনরায় একই TrxID দিয়ে VERIFY করুন।");
+          }
+        } else {
+          db.ref('orders').push({
+            invoiceId: currentInvoiceId,
+            itemId: currentItem.id,
+            itemTitle: currentItem.title,
+            downloadUrl: currentItem.downloadUrl,
+            amount: amount,
+            method: method,
+            trxId: inputTrx,
+            status: 'pending',
+            timestamp: Date.now()
+          }).then(() => {
+            showErrorFeedback("আপনার Transaction ID গ্রহণ করা হয়েছে।", "এডমিন কিছুক্ষণের মধ্যে ভেরিফাই করবেন। ভেরিফাই হলে এই TrxID দিয়ে ডাউনলোড করতে পারবেন।");
+          });
+        }
+      });
+    }
+
+    function consumeAndDownload(orderKey, fileUrl) {
+      db.ref(`orders/${orderKey}`).update({
+        status: 'claimed',
+        claimedAt: Date.now()
+      }).then(() => {
+        window.open(fileUrl, '_blank');
+        document.getElementById('unlocked-file-area').innerHTML = `
+          <div style="background:#fee2e2; border:1px solid #ef4444; color:#991b1b; padding:12px; border-radius:8px; margin:16px; font-size:13px; text-align:center;">
+            <i class="fa-solid fa-lock"></i> এই TrxID-এর এককালীন ডাউনলোড সম্পন্ন হয়েছে। নিরাপত্তা নিশ্চিত করতে লিঙ্কটি বন্ধ করে দেওয়া হয়েছে।
+          </div>
+        `;
+      });
+    }
+
+    // --- 7. DEVELOPER APP UPLOAD ---
+    auth.onAuthStateChanged(user => {
+      if (user) {
+        document.getElementById('auth-container').style.display = 'none';
+        document.getElementById('upload-container').style.display = 'block';
+        document.getElementById('user-display').innerText = user.displayName || user.email;
+        loadUserApps(user.uid);
+      } else {
+        document.getElementById('auth-container').style.display = 'block';
+        document.getElementById('upload-container').style.display = 'none';
+      }
+    });
+
+    function loginWithGoogle() {
+      auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()).catch(e => alert(e.message));
+    }
+    function loginWithEmail() {
+      const e = document.getElementById('auth-email').value;
+      const p = document.getElementById('auth-pass').value;
+      if (!e || !p) return alert("ইমেইল ও পাসওয়ার্ড দিন");
+      auth.signInWithEmailAndPassword(e, p).catch(err => alert(err.message));
+    }
+    function registerWithEmail() {
+      const e = document.getElementById('auth-email').value;
+      const p = document.getElementById('auth-pass').value;
+      if (!e || !p) return alert("ইমেইল ও পাসওয়ার্ড দিন");
+      auth.createUserWithEmailAndPassword(e, p).catch(err => alert(err.message));
+    }
+    function logout() { auth.signOut(); }
+
+    function submitApp() {
+      const user = auth.currentUser;
+      if (!user) return alert("লগইন করুন!");
+
+      const title = document.getElementById('app-name').value;
+      const developer = document.getElementById('app-dev').value;
+      const category = document.getElementById('app-category').value;
+      const logo = document.getElementById('app-logo').value;
+      const downloadUrl = document.getElementById('app-download-link').value;
+      const size = document.getElementById('app-size').value;
+      const hasAds = document.getElementById('app-has-ads').value === 'true';
+      const screenshots = document.getElementById('app-screenshots').value.split(',').map(s => s.trim()).filter(s => s);
+      const video = document.getElementById('app-video').value;
+      const desc = document.getElementById('app-desc').value;
+
+      if (!title || !developer || !logo || !downloadUrl) {
+        return alert("প্রয়োজনীয় তথ্যগুলো পূরণ করুন!");
+      }
+
+      db.ref('apps').push().set({
+        title, developer, category, logo, downloadUrl, size,
+        hasAds, screenshots, video, desc,
+        downloads: 0,
+        ratings: { total: 5, count: 1 },
+        featured: false,
+        status: 'pending',
+        uploaderId: user.uid,
+        submittedAt: Date.now()
+      }).then(() => {
+        alert("আপনার অ্যাপটি সাবমিট হয়েছে! এডমিন প্যানেলে অ্যাপ্রুভ করার সাথে সাথে স্টোরে লাইভ হবে।");
+        document.getElementById('app-name').value = '';
+        document.getElementById('app-logo').value = '';
+        document.getElementById('app-download-link').value = '';
+        document.getElementById('app-screenshots').value = '';
+        document.getElementById('app-desc').value = '';
+      }).catch(err => alert(err.message));
+    }
+
+    function loadUserApps(uid) {
+      const container = document.getElementById('user-apps-list');
+      db.ref('apps').orderByChild('uploaderId').equalTo(uid).on('value', snap => {
+        container.innerHTML = '';
+        const data = snap.val();
+        if (!data) {
+          container.innerHTML = `<p style="font-size:12px; color:var(--text-sub);">আপনার কোনো সাবমিশন নেই।</p>`;
+          return;
+        }
+        Object.values(data).forEach(app => {
+          const isPending = app.status === 'pending';
+          container.innerHTML += `
+            <div style="background:var(--card-bg); padding:10px; border-radius:8px; margin-bottom:8px; border:1px solid var(--border-color); display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-size:13px; font-weight:500;">${app.title}</span>
+              <span style="font-size:11px; padding:2px 8px; border-radius:4px; font-weight:600; background:${isPending ? '#fef3c7' : '#dcfce7'}; color:${isPending ? '#92400e' : '#166534'};">
+                ${isPending ? 'Pending (অপেক্ষমান)' : 'Approved (লাইভ)'}
+              </span>
+            </div>
+          `;
+        });
+      });
+    }
+
+    // --- 8. COMMENTS & RATINGS ---
+    function setStar(r) {
+      selectedRating = r;
+      document.querySelectorAll('#star-picker i').forEach((s, idx) => {
+        s.style.color = idx < r ? '#fbbc04' : '#ccc';
+      });
+    }
+
+    function submitComment() {
+      if (!currentItem) return;
+      const name = document.getElementById('comment-user-name').value || "ভিজিটর";
+      const comment = document.getElementById('comment-text').value;
+      if (!comment) return alert("মন্তব্য লিখুন!");
+
+      db.ref(`comments/${currentItem.id}`).push({ name, comment, rating: selectedRating, timestamp: Date.now() });
+      db.ref(`apps/${currentItem.id}/ratings`).transaction(cur => {
+        if (!cur) return { total: selectedRating, count: 1 };
+        return { total: cur.total + selectedRating, count: cur.count + 1 };
+      });
+      document.getElementById('comment-text').value = '';
+      alert("ধন্যবাদ! আপনার রিভিউ জমা হয়েছে।");
+    }
+
+    function loadComments(appId) {
+      const list = document.getElementById('comment-list');
+      db.ref(`comments/${appId}`).on('value', snap => {
+        list.innerHTML = '';
+        const data = snap.val();
+        if (!data) {
+          list.innerHTML = `<p style="font-size:12px; color:var(--text-sub);">এখনও কোনো মন্তব্য নেই।</p>`;
+          return;
+        }
+        Object.values(data).reverse().forEach(c => {
+          let stars = '';
+          for (let i = 0; i < c.rating; i++) stars += `<i class="fa-solid fa-star" style="color:#fbbc04; font-size:10px;"></i>`;
+          list.innerHTML += `
+            <div style="background:var(--card-bg); padding:10px; border-radius:8px; margin-bottom:8px; border:1px solid var(--border-color);">
+              <div style="display:flex; justify-content:space-between; font-weight:600; font-size:12px;">
+                <span>${c.name}</span>
+                <span>${stars}</span>
+              </div>
+              <p style="font-size:12px; color:var(--text-sub); margin-top:3px;">${c.comment}</p>
+            </div>
+          `;
+        });
+      });
+    }
+
+    // --- 9. HELPERS ---
+    function filterContent() {
+      const q = document.getElementById('searchInput').value.toLowerCase();
+      const filtered = allContentList.filter(i => 
+        i.title.toLowerCase().includes(q) || 
+        (i.developer && i.developer.toLowerCase().includes(q))
+      );
+      renderStore(filtered);
+    }
+
+    function switchNav(viewName, btn) {
+      document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.page-view').forEach(v => v.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(`${viewName}-view`).classList.add('active');
+      window.scrollTo(0, 0);
+    }
+
+    function toggleTheme() {
+      const isDark = document.body.getAttribute('data-theme') === 'dark';
+      document.body.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      document.getElementById('theme-icon').classList.replace(isDark ? 'fa-sun' : 'fa-moon', isDark ? 'fa-moon' : 'fa-sun');
+    }
+  </script>
+</body>
+</html>
